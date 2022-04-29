@@ -21,7 +21,7 @@ library(ggquartz)
 data.frame(x = rnorm(20), y = rnorm(20), z= factor(c(rep(1, 15), rep(2, 5)))) %>%
    ggplot(aes(x = x, y = y, shape = z, size = z, color = z)) +
    scale_target() +
-   geom_point()
+   geom_point() -> p
 
 ggsave("example.png")
 ```
