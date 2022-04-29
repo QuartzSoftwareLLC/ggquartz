@@ -24,7 +24,7 @@ data.frame(x = rnorm(20), y = rnorm(20), z= factor(c(rep(1, 15), rep(2, 5)))) %>
    scale_target() +
    geom_point() -> p
 
-ggsave("example.png")
+ggsave("./example.png")
 ```
 
-![plot](./example.png)
+![plot](./man/figures/example.png)
