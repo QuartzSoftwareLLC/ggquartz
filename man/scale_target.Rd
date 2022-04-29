@@ -2,8 +2,7 @@
 % Please edit documentation in R/scale_target.R
 \name{scale_target}
 \alias{scale_target}
-\title{scale_target
-creates a shape and size scale for plotting targets in ggplot2}
+\title{scale_target}
 \usage{
 scale_target(..., size = 2)
 }
@@ -11,7 +10,6 @@ scale_target(..., size = 2)
 \item{size}{the size of the shapes}
 }
 \description{
-scale_target
 creates a shape and size scale for plotting targets in ggplot2
 }
 \examples{

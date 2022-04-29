@@ -1,6 +1,7 @@
 create_palette <- function(options) \(n) rep(options,n)[seq(n)]
 
 #' scale_target
+#'
 #' creates a shape and size scale for plotting targets in ggplot2
 #' @export 
 #' @importFrom ggplot2 discrete_scale
