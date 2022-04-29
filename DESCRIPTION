@@ -1,5 +1,5 @@
 Package: ggquartz
-Title: ggplot2 extensions from quartzsoftwarellc
+Title: ggquartz
 Version: 0.0.0.9000
 Authors@R: person("Jacob", ,"Clarke", "jacobclarke718@gmail.com", role = c("aut", "cre"),  comment = c(ORCID = "0000-0002-7221-6244") )
 Description: ggplot2 display components made by quartzsoftwarellc.
