@@ -3,6 +3,7 @@
 # ggquartz
 
 Add a target scale to your plots.
+
 ## Installation 
 
 ```R
