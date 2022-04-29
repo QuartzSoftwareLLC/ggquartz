@@ -5,7 +5,10 @@
 \title{scale_target
 creates a shape and size scale for plotting targets in ggplot2}
 \usage{
-scale_target(..., size = 0)
+scale_target(..., size = 2)
+}
+\arguments{
+\item{size}{the size of the shapes}
 }
 \description{
 scale_target
