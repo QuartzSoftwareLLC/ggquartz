@@ -12,3 +12,4 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
 Imports: 
     ggplot2
+URL: https://quartzsoftwarellc.github.io/ggquartz/
