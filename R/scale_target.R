@@ -6,7 +6,10 @@ create_palette <- function(options) \(n) rep(options,n)[seq(n)]
 #' @export 
 #' @importFrom ggplot2 discrete_scale
 #' @param size the size of the shapes
+#' @param ... arguments passed to discrete scale
 #' @examples
+#' library(dplyr)
+#' library(ggplot2)
 #' data.frame(x = rnorm(20), y = rnorm(20), z= factor(c(rep(1, 15), rep(2, 5)))) %>%
 #'    ggplot(aes(x = x, y = y, shape = z, size = z, color = z)) +
 #'    scale_target() +
