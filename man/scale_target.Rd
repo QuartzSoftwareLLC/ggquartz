@@ -2,7 +2,7 @@
 % Please edit documentation in R/scale_target.R
 \name{scale_target}
 \alias{scale_target}
-\title{scale_target}
+\title{create a target and circle shape scale}
 \usage{
 scale_target(..., size = 2)
 }
@@ -15,7 +15,6 @@ scale_target(..., size = 2)
 creates a shape and size scale for plotting targets in ggplot2
 }
 \examples{
-library(dplyr)
 library(ggplot2)
 data.frame(x = rnorm(20), y = rnorm(20), z= factor(c(rep(1, 15), rep(2, 5)))) \%>\%
    ggplot(aes(x = x, y = y, shape = z, size = z, color = z)) +

@@ -2,10 +2,13 @@
 % Please edit documentation in R/apply_theme.R
 \name{apply_theme}
 \alias{apply_theme}
-\title{apply_theme}
+\title{Applies the default ggquartz theme to all plots}
 \usage{
 apply_theme()
 }
 \description{
 Applies the default ggquartz theme to all plots
+}
+\examples{
+apply_theme()
 }

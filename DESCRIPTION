@@ -1,6 +1,6 @@
 Package: ggquartz
 Title: ggquartz
-Version: 0.0.0.9000
+Version: 0.0.1
 Authors@R: person("Jacob", ,"Clarke", "jacobclarke718@gmail.com", role = c("aut", "cre"),  comment = c(ORCID = "0000-0002-7221-6244") )
 Description: ggplot2 display components made by quartzsoftwarellc.
 License: MIT + file LICENSE
@@ -9,7 +9,8 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.0
 Imports: 
     ggplot2,
-    ggthemr
+    ggthemr,
+    magrittr
 Remotes:
     Mikata-Project/ggthemr
 URL: https://quartzsoftwarellc.github.io/ggquartz/
