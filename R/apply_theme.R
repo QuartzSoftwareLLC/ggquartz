@@ -1,6 +1,5 @@
-#' apply_theme
-#'
 #' Applies the default ggquartz theme to all plots
+#' 
 #' @export
 #' @import ggplot2
 apply_theme <- function() {
