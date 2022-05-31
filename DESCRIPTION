@@ -10,6 +10,8 @@ RoxygenNote: 7.2.0
 Imports: 
     ggplot2,
     ggthemr
+Remotes:
+    Mikata-Project/ggthemr
 URL: https://quartzsoftwarellc.github.io/ggquartz/
 Depends: 
     R (>= 2.10)
