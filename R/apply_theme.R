@@ -2,6 +2,8 @@
 #' 
 #' @export
 #' @import ggplot2
+#' @examples
+#' apply_theme()
 apply_theme <- function() {
     update_geom_defaults("line", list(size = 1.5, alpha = 0.8))
     update_geom_defaults("point", list(size = 2.5))
