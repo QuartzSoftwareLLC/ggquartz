@@ -13,7 +13,8 @@ Imports:
     magrittr
 Remotes:
     Mikata-Project/ggthemr
-URL: https://quartzsoftwarellc.github.io/ggquartz/
+URL: https://github.com/QuartzSoftwareLLC/ggquartz
 Depends: 
     R (>= 2.10)
 LazyData: true
+BugReports: https://github.com/QuartzSoftwareLLC/ggquartz/issues
