@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+    <defs>
+        <circle id="circ"
+                cx="0"
+                cy="0"
+                r="4"
+                />
+        <path id="hexagon"
+            d="M 727.1 906.1 H 272.9 L 44.9 508 l 228 -398.1 h 454.3 l 228 398.1 L 727.1 906.1 z" />
+    </defs>
+    <use id="outer" href="#hexagon" transform="translate(0) matrix(1,0,0,1,0,0)" />
+    <use id="inner" href="#hexagon" transform="scale(0.8) matrix(1,0,0,1,0,0)" transform-origin="center" />
+    <use  href="#circ" stroke="white" transform="translate(38,30)"/>
+    <use  href="#circ" stroke="white" transform="translate(62,30)"/>
+    <use  href="#circ" stroke="white" transform="translate(25,50)"/>
+    <use  href="#circ" stroke="white" transform="translate(75,50)"/>
+    <use  href="#circ" stroke="white" transform="translate(38,70)"/>
+    <use  href="#circ" stroke="white" transform="translate(58,66)"/>
+    <use  href="#circ" stroke="white" transform="translate(66,74)"/>
+    <style>
+        :root {
+            --primary: #AB6C82;
+            --secondary: #475C7A;
+        }
+
+
+        #circ {
+            stroke: white;
+            fill: white;
+        }
+
+        #hexagon {
+            transform: scale(0.1);
+        }
+
+        #outer {
+            stroke: var(--primary);
+            fill: none;
+            stroke-width: 50;
+        }
+
+        #inner {
+            stroke: var(--secondary);
+            fill: var(--secondary);
+            stroke-width: 65;
+
+        }
+    </style>
+</svg>
